@@ -1,0 +1,40 @@
+.teamCard {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.teamLogo img {
+  width: 85px;
+  height: 100px;
+}
+
+.teamCard button {
+  border: 2px solid red;
+  background-color: white;
+  border: none;
+  width: 100px;
+  padding: 8px 0;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.teamCard button:hover {
+  cursor: pointer;
+}
+
+.errorMessage {
+  width: 100%;
+  text-align: center;
+  background-color: red;
+  margin: 10px 0;
+  color: white;
+}

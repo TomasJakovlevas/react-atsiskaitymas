@@ -1,0 +1,41 @@
+header {
+  background-color: red;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container div {
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .container nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header .container nav ul li {
+  padding: 15px;
+}
+
+header .container nav ul li a,
+header .container nav ul li span {
+  color: white;
+  text-decoration: none;
+}
+
+header .container nav ul li:hover {
+  background: white;
+}
+
+header .container nav ul li:hover a,
+header .container nav ul li:hover span {
+  color: red;
+  cursor: pointer;
+}
